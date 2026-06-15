@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import Assignment1 from './assignments/Assignment1'
 import Assignment2 from './assignments/Assignment2'
+import Assignment3 from './assignments/Assignment3'
 
 
 function App() {
@@ -15,6 +16,10 @@ function App() {
     <div style={{marginTop:"30px"}}>
       <span>Assignment 2</span>
       <Assignment2/>
+    </div>
+    <div style={{marginTop:"30px"}}>
+      <span>Assignment 3</span>
+      <Assignment3/>
     </div>
     </>
   )

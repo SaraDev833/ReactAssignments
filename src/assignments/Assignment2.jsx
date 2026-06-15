@@ -29,9 +29,10 @@ const Assignment2 = () => {
         </button>
  
        {show && 
-        <div className="card">
-            name: sara,
-            role: web developer
+        <div className="card" style={{padding:"20px", border:"2px solid black", marginTop:"20px"}}>
+            Name: sara,
+            <br /> 
+            Role: web developer
         </div>
        
        }
