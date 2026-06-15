@@ -3,6 +3,7 @@ import Assignment1 from './assignments/Assignment1'
 import Assignment2 from './assignments/Assignment2'
 import Assignment3 from './assignments/Assignment3'
 import Assignment4 from './assignments/Assignment4'
+import Assignment5 from './assignments/Assignment5'
 
 
 function App() {
@@ -13,7 +14,7 @@ function App() {
   return (
     <>
     {/* assignment1 is normally making a counter using state  */}
-    <Assignment1/>
+   {/* <Assignment1/>
     <div style={{marginTop:"30px"}}>
       <span>Assignment 2</span>
       <Assignment2/>
@@ -25,6 +26,10 @@ function App() {
     <div style={{marginTop:"30px"}}>
       <span>Assignment 4</span>
       <Assignment4/>
+    </div> */}
+    <div style={{marginTop:"30px"}}>
+      <span>Assignment 5</span>
+      <Assignment5/>
     </div>
     </>
   )
